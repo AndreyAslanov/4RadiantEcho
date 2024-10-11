@@ -1,15 +1,10 @@
 import ApphudSDK
-import OneSignalFramework
 import UIKit
 
 @main
 class AppDelegate: UIResponder, UIApplicationDelegate {
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
         Apphud.start(apiKey: "app_TXG4ZXFDzweTSV3t82xWVM2d5LNJ3D")
-        
-        OneSignal.Debug.setLogLevel(.LL_VERBOSE)
-        OneSignal.initialize("7daee461-7f29-4da4-882b-d4c185e7e881", withLaunchOptions: launchOptions)
-        OneSignal.login(Apphud.userID())
         
         let isRoute = DeviceStatus.shared.isIdea
         return true

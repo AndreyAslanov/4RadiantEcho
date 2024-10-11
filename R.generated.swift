@@ -11,9 +11,6 @@ let R = _R(bundle: Bundle(for: BundleFinder.self))
 
 struct _R {
   let bundle: Foundation.Bundle
-
-  let entitlements = entitlements()
-
   var string: string { .init(bundle: bundle, preferredLanguages: nil, locale: nil) }
   var color: color { .init(bundle: bundle) }
   var image: image { .init(bundle: bundle) }
@@ -394,10 +391,5 @@ struct _R {
         }
       }
     }
-  }
-
-  /// This `_R.entitlements` struct is generated, and contains static references to 0 properties.
-  struct entitlements {
-    let apsEnvironment: String = "development"
   }
 }

@@ -1,9 +1,8 @@
-import OneSignalFramework
 import UIKit
 
 final class OnboardingViewController: UIViewController {
     // MARK: - Life cycle
-
+    
     private let pageViewController = UIPageViewController(transitionStyle: .scroll, navigationOrientation: .horizontal)
     private var pagesViewControllers = [UIViewController]()
 
@@ -134,9 +133,8 @@ extension OnboardingViewController {
                 present(meetingVC, animated: true, completion: nil)
             }
         case .manage:
-            OneSignal.Notifications.requestPermission({ accepted in
-                print("User accepted notifications: \(accepted)")
-            }, fallbackToSettings: true)
+            UserDefaults.standard.set(true, forKey: "HasLaunchedBefore")
+            AppActions.shared.openWebPage()
         }
     }
 }

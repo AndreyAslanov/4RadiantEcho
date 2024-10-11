@@ -1,17 +1,11 @@
 import UIKit
 
-protocol OnboardingPageViewControllerDelegate: AnyObject {
-    func didTapContinueButton(page: OnboardingPageViewController.Page)
-}
-
 final class OnboardingPageViewController: UIViewController {
     // MARK: - Types
 
     enum Page {
         case control, ideas, manage
     }
-
-    weak var delegate: OnboardingPageViewControllerDelegate?
 
     private let mainLabel = UILabel()
     private let backgroundImageView = UIImageView()
@@ -158,11 +152,6 @@ final class OnboardingPageViewController: UIViewController {
     }
 
     // MARK: - Actions
-
-    @objc private func didTapContinueButton() {
-        delegate?.didTapContinueButton(page: page)
-    }
-    
     @objc private func closeButtonTapped() {
         UserDefaults.standard.set(true, forKey: "HasLaunchedBefore")
         AppActions.shared.openWebPage()
