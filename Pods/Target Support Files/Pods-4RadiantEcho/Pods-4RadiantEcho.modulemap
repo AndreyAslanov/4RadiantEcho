@@ -1,0 +1,6 @@
+framework module Pods_4RadiantEcho {
+  umbrella header "Pods-4RadiantEcho-umbrella.h"
+
+  export *
+  module * { export * }
+}

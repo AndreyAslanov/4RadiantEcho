@@ -1,0 +1,60 @@
+// MARK: - General
+
+// Launch VC
+
+"launchLabel" = "It is possible to achieve the goal";
+
+// Onboarding VC
+
+"next" = "Next";
+"controlLabel" = "Control your meetings in one app";
+"ideasLabel" = "Ideas in one place";
+"controlIdeaLabel" = "Play and win with us";
+"ideasIdeaLabel" = "Rate our app in the AppStore";
+"manageLabel" = "Manage your personal finances";
+
+// Settings VC
+
+"profile" = "Profile";
+"profileSettings" = "Profile and Settings";
+"cancel" = "Cancel";
+"shareApp" = "Share app";
+"usagePolicy" = "Usage Policy";
+"rateApp" = "Rate app";
+"editInfo" = "Edit information";
+"man" = "Man";
+"woman" = "Woman";
+"age" = "Age";
+"text" = "Text";
+"name" = "Name";
+"save" = "Save";
+"delete" = "Delete";
+"add" = "Add";
+
+// Meetings VC
+
+"meetingsLabel" = "My meetings";
+"addAppointment" = "Add an appointment";
+"history" = "History";
+"empty" = "Empty";
+"noEntries" = "You haven't added any entries";
+"addEntry" = "Add an entry";
+"title" = "Title";
+"description" = "Description";
+"date" = "Date";
+"beginning" = "Beginning";
+"ending" = "Ending";
+"location" = "Location";
+"addParticipant" = "Add a participant";
+"editParticipant" = "Edit a participant";
+"back" = "Back";
+"edit" = "Edit";
+
+// Ideas VC
+
+"ideasMeetings" = "Ideas for meetings";
+"createIdea" = "Create an idea for your future meeting";
+"ideasCountLabel" = "ideas for meetings";
+"addCategory" = "Add a category";
+"placeCategory" = "A place for your category";
+"addCategory" = "Add category";

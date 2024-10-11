@@ -1,0 +1,28 @@
+PODS:
+  - ApphudSDK (3.3.8)
+  - KeychainSwift (20.0.0)
+  - R.swift (7.3.2)
+  - SnapKit (5.6.0)
+
+DEPENDENCIES:
+  - ApphudSDK
+  - KeychainSwift (~> 20.0)
+  - R.swift
+  - SnapKit (~> 5.6.0)
+
+SPEC REPOS:
+  trunk:
+    - ApphudSDK
+    - KeychainSwift
+    - R.swift
+    - SnapKit
+
+SPEC CHECKSUMS:
+  ApphudSDK: ec0008317ed95cf3dea56574f488414e94dfdb03
+  KeychainSwift: 0ce6a4d13f7228054d1a71bb1b500448fb2ab837
+  R.swift: 0af0d882f49f03711415cb4e5215daa977d8a480
+  SnapKit: e01d52ebb8ddbc333eefe2132acf85c8227d9c25
+
+PODFILE CHECKSUM: ffdf66dd3c938a08660d3db92167270c79241432
+
+COCOAPODS: 1.14.3
