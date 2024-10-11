@@ -13,8 +13,8 @@ workflows:
           - certificate_credentials # <-- (CERTIFICATE_PRIVATE_KEY - Put your Certificate Private Key here)
           #- other
         vars:
-          XCODE_PROJECT: "2RadiantEcho.xcworkspace" # <-- Put the name of your workspace here.
-          XCODE_SCHEME: "2RadiantEcho" # <-- Put the name of your scheme here.
+          XCODE_PROJECT: "4RadiantEcho.xcworkspace" # <-- Put the name of your workspace here.
+          XCODE_SCHEME: "4RadiantEcho" # <-- Put the name of your scheme here.
           BUNDLE_ID: "com.gri.r2ad14nt3cho" # <-- Put your Bundle Id here.
           APP_STORE_APPLE_ID: 6736525527 # <-- Put the app id number here. This is found in App Store Connect > App > General > App Information
         xcode: latest # <-- set to specific version e.g. 14.3, 15.0 to avoid unexpected updates.
